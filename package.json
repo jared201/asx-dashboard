@@ -76,6 +76,7 @@
     "node-fetch": "^2.2.1",
     "pace-progress": "1.0.2",
     "perfect-scrollbar": "1.4.0",
+    "pg": "^7.6.1",
     "popper.js": "1.14.4",
     "sass": "^1.14.1",
     "simple-line-icons": "2.4.1"

@@ -4,7 +4,8 @@ exports.dbPool = function () {
   } = require('pg')
   console.log('connecting to db pool')
   const pool = new Pool({
-    connectionString: process.env.HEROKU_POSTGRESQL_NAVY_URL || process.env.DATABASE_URL,
+    connectionString: process.env.DATABASE_URL,
+
     ssl: true
   })
 
