@@ -8,6 +8,6 @@ let timerId = setInterval(() => {
   pse.processPSEdata((body) => {
       console.log(body);
   })
-}, 300000);
+}, 120000);
 
 //setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 3000);
